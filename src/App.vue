@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="container mx-auto my-auto bg-gray-200" id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
@@ -7,6 +7,8 @@
     <router-view />
   </div>
 </template>
+
+<style src="@/assets/styles/app.css" />
 
 <style>
 #app {
