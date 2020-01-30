@@ -1,5 +1,5 @@
 {
-  "name": "electrovue",
+  "name": "vdplayer",
   "version": "0.1.0",
   "main": "main.js",
   "private": true,
@@ -8,11 +8,12 @@
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
-    "electron": "vue-cli-service build --mode development && electron .",
+    "electron": "vue-cli-service build --mode development --hot && electron .",
     "electron:prod": "vue-cli-service build --mode development && electron ."
   },
   "dependencies": {
     "core-js": "^3.4.4",
+    "plyr": "^3.5.6",
     "tailwindcss": "^1.1.4",
     "vue": "^2.6.10",
     "vue-router": "^3.1.3",

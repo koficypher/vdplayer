@@ -5,7 +5,7 @@
       alt="Vue logo"
       src="../assets/logo.png"
     />
-    <HelloWorld msg="Welcome to Your ElectroVue App" />
+    <HelloWorld msg="Welcome to Your ElectroVue App 1.0 " />
   </div>
 </template>
 
